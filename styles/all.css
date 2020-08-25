@@ -349,6 +349,7 @@ header p {
   font-size: 20pt;
   letter-spacing: 2px;
 }
+
 @media screen and (max-width: 768px) {
   header {
     margin-top: 80px;
@@ -508,7 +509,7 @@ header p {
 
 }
 
-@media screen and (max-width: 710px) {
+@media screen and (max-width: 1010px) {
   .gear {
     width: 100%;
   }
@@ -518,8 +519,8 @@ header p {
   }
 
   .content_holder {
-    display: flex;
-    flex-direction: column;
+    display: flex !important;
+    flex-direction: column !important;
     overflow: visible;
     height: auto;
   }
